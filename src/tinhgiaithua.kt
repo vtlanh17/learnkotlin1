@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     var giaithua=1
     if (s!=null){
         n=s.toInt()
-        if (n%2==0){
+        /*if (n%2==0){
             while (i in 0..n ){
                 tong = tong +i
                 i+=2
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
         }else{
 
         println("khong tinh tong so le ")
-        }
+        }*/
         while (j<=n ){
             giaithua=giaithua*j
             j++
